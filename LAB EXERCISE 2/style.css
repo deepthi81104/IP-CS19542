@@ -1,0 +1,39 @@
+.body {
+    background-image: url('images/clg.jpeg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image from repeating */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(173, 166, 255);
+    padding: 10px; /* Optional: Adds padding inside header */
+}
+
+.sections {
+    font-family: "Verdana";
+    background-color: purple;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid;
+    cursor: pointer; /* Optional: Adds a pointer cursor on hover */
+}
+
+.sections:hover {
+    background-color: rgb(255, 23, 255);
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+
